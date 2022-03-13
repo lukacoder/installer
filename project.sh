@@ -3,12 +3,12 @@ echo " "
 echo "KEDY.CODER"
 echo " "
 echo "1.TERMİNAL UPDATE "
-echo "2.Hacking tools installer"
+echo "2.HACK TOOL İNSTALLER "
                            
 echo "1 / 2 -> "
 read input
 if [[ $input == "1" || $input == "one" ]]; then
-        sudo apt update
+sudo apt update
 sudo apt upgrade 
 sudo apt install git -y
 sudo apt install python -y
@@ -31,8 +31,8 @@ sudo apt install libcurl -y
 sudo apt install toilet -y
 clear
 elif [[ $input == "2" || $input == "two" ]]; then
-sudo apt-get install sqlmap 
-sudo apt-get install wireshark 
+        sudo apt-get install sqlmap 
+        sudo apt-get install wireshark 
         git clone https://github.com/sqlmapproject/sqlmap
         git clone https://github.com/Tuhinshubhra/RED_HAWK
         git clone https://github.com/shawarkhanethicalhacker/D-TECT-1
@@ -621,5 +621,5 @@ sudo apt-get install wireshark
         git clone https://github.com/algolia/facebook-search
 
 else
-        echo "YANLIŞ BİR ŞEY YAZDIN ? "
+        echo "OOPS... :("
 fi
