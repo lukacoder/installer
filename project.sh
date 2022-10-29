@@ -1,6 +1,6 @@
 clear
 echo " "
-echo "KEDY.CODER"
+echo "lukac0der"
 echo " "
 echo "1.TERMİNAL UPDATE "
 echo "2.HACK TOOL İNSTALLER "
